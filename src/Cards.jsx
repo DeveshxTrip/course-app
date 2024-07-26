@@ -15,7 +15,7 @@ import {
     const handleClick = () => setActive(!active);
     return (
         <>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="px-4 grid grid-cols-3 gap-6">
         
       <Card className="w-full max-w-[26rem] shadow-lg">
         <CardHeader floated={false} color="blue-gray">
