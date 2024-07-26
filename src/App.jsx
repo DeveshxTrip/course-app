@@ -1,8 +1,13 @@
 import React from 'react'
+import { Button, ButtonGroup } from "@material-tailwind/react";
+import Cards from './Cards';
 
 const App = () => {
   return (
-    <div className='text-4xl font-bold'>App</div>
+    <div>
+    <Cards/>
+    <Button>button</Button>
+    </div>
   )
 }
 
