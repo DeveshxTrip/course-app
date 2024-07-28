@@ -15,7 +15,7 @@ import {
     const handleClick = () => setActive(!active);
     return (
         <>
-        <div className="px-4 grid grid-cols-3 gap-6">
+        <div className="px-20 lg:grid lg:grid-cols-3 gap-6 md:grid-cols-2 md:grid">
         
       <Card className="w-full max-w-[26rem] shadow-lg">
         <CardHeader floated={false} color="blue-gray">
@@ -171,6 +171,7 @@ import {
           />
           <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60 " />
           <IconButton
+          
             size="sm"
             color="white"
             variant="text"
